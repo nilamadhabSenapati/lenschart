@@ -1,0 +1,35 @@
+{
+  "name": "lenschart",
+  "version": "1.0.0",
+  "description": "A React component for creating animated 3D bar charts.",
+  "main": "src/index.js",
+  "module": "src/index.js",
+  "scripts": {
+    "build": "babel src --out-dir dist",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nilamadhabSenapati/lenschart"
+  },
+  "keywords": [
+    "react",
+    "3d",
+    "bar-chart",
+    "chart",
+    "visualization"
+  ],
+  "author": "nilamadhab.senapati@lenscorp.ai",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^16.8.0 || ^17.0.0 || ^18.0.0",
+    "react-dom": "^16.8.0 || ^17.0.0 || ^18.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.26.4",
+    "@babel/preset-env": "^7.20.0",
+    "@babel/preset-react": "^7.18.6",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  }
+}
